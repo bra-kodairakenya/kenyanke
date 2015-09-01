@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <title>KURASHIRU</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/sanitize.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
-</head>
+<?php get_head_template(); ?>
 
 <body id="body_layout">
 
@@ -32,8 +25,8 @@
 
   <article>
     <div id="wrapper">
-      <img id="background_img" src="images/106742y.jpg" alt="背景">
-      <img id="background_over_img" src="images/呑みに行こうぜ.jpg" alt="キャッチコピー">
+      <img id="background_img" src="<?php echo get_template_directory_uri(); ?>/images/106742y.jpg" alt="背景">
+      <img id="background_over_img" src="<?php echo get_template_directory_uri(); ?>/images/呑みに行こうぜ.jpg" alt="キャッチコピー">
     </div>
   </article>
 
