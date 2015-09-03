@@ -9,9 +9,7 @@
 
   <article>
     <div id="wrapper">
-
-    <?php get_template_part('contents/content-top'); ?>
-
+      <?php get_template_part('contents/content-404'); ?>
     </div>
   </article>
 

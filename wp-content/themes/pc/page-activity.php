@@ -10,7 +10,9 @@
   <article>
     <div id="wrapper">
 
-    <?php get_template_part('contents/content-top'); ?>
+      <div id="activity">
+        <?php echo do_shortcode("[huge_it_portfolio id='1']"); // Portfolio/Gallery プラグイン ?>
+      </div>
 
     </div>
   </article>

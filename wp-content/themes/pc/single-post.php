@@ -10,9 +10,9 @@
   <article>
     <div id="wrapper">
 
-    <?php get_template_part('contents/content-top'); ?>
+      <?php get_template_part('contents/content-single'); ?>
 
-    </div>
+    </div><!-- wrapper -->
   </article>
 
 <?php get_footer(); ?>
