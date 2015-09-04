@@ -164,7 +164,7 @@ body {
 }
 
 #single_content {
-  padding: 15px 0px;
+  padding: 20px 0px;
 }
 
 #single h1 {
@@ -176,21 +176,21 @@ body {
 #single h2 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-bottom: 2px solid #999999;
 }
 
 #single h3 {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #single p {
   font-size: 16px;
   line-height: 1.6em;
   letter-spacing: 0.008em;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 #single img {

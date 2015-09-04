@@ -9,7 +9,7 @@
         <ul id="nav_in">
           <li class="nav-menu"><a class="huge-font" href="<?php site_url(); ?>/activity" title="制作実績">制作実績</a></li>
           <li class="nav-menu"><a class="huge-font" href="<?php site_url(); ?>/archive" title="活動の報告">活動の報告</a></li>
-          <li class="nav-menu"><a class="huge-font" href="https://www.facebook.com/kenya0728" target="_blank" title="Facebook">Facebook</a></li>
+          <li class="nav-menu"><a class="huge-font" href="https://www.facebook.com/kenya0728" target="_blank" title="Facebook" rel="noindex, nofollow">Facebook</a></li>
         </ul>
       </nav>
     </div><!-- header_fixed -->
