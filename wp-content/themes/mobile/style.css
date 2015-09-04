@@ -1,0 +1,162 @@
+/*
+Theme Name: Kenyanke-Mobile
+Description: コダイラ ケンヤのポートフォリオサイト
+Theme URI: テーマのURL
+Author: コダイラ ケンヤ
+Author URI: http:://www.kenyanke.com;
+Version: バージョン 01
+License: ライセンス
+License URI: ライセンスのURL
+*/
+
+
+/* color
+白と黒を基調にしたデザインを意識
+背景  : #FFFFFB;
+文字  : #666666;
+小文字: #999999;
+リンク: #8C8C8C;
+線   ： #CCCCCC;
+*/
+
+/*=========== 全体の設定 ===========*/
+
+/* 選択時の色を変える  http://metrograph.jp/text_selection_style/ */
+::selection{background-color:#CCCCCC;text-shadow:none}
+::-moz-selection{background-color:#CCCCCC;text-shadow:none}
+
+/* <a>タグのリンク */
+a{color:#8C8C8C; text-decoration:none;}
+a:hover {text-decoration: underline;}
+a:hover img{opacity:0.80; filter:alpha(opacity=80); /*IE用*/ }
+
+
+/* font */
+.title-font {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title-font:hover {
+  text-decoration: none;
+}
+
+.huge-font {
+ font-size: 16px;
+ font-weight: 600;
+}
+
+.small-font {
+  font-size: 10px;
+  color: #999999;
+}
+
+
+/* ここからstyle */
+
+#body_layout {
+  background-color: #FFFFFB;
+  padding: 0px 15px;
+}
+
+
+/* header */
+#header_in {
+  text-align: center;
+  height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+#header_logo {
+  display: block;
+  padding-top: 10px;
+}
+
+
+/* nav */
+#nav_in {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.nav-menu:nth-child(-n+2) {
+  width: 100%;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
+.nav-menu-in {
+  display: block;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+
+/* footer */
+#footer {
+  padding: 10px 0px 5px 0px;
+}
+
+#copyright {
+  text-align: center;
+}
+
+
+/* wrapper */
+#wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+/* top wrapper */
+#top {
+  padding: 10px 0px;
+}
+
+#background_img {
+  width: 100%;
+  height: auto;
+}
+
+#background_over_img {
+  position: absolute;
+  width: 15%;
+  top: 10px;
+  right: 20px;
+}
+
+
+/* activity wrapper */
+#activity {
+
+}
+
+
+/* archive wrapper */
+#archive {
+
+}
+
+
+/* single wrapper */
+#single {
+
+}
+
+
+/* 404 wrapper */
+#error_404 {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
