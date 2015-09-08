@@ -27,4 +27,10 @@
   wp_reset_query();
 ?>
 
+</div><!-- archive -->);
+?>
+
+</div><!-- archive -->);
+?>
+
 </div><!-- archive -->

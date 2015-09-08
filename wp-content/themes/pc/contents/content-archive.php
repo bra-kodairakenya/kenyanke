@@ -13,12 +13,14 @@
 ?>
 
   <article>
-    <div class="archive-in">
-      <a class="link-block" href="<?php the_permalink(); ?>">
-        <time class="small-font" datetime="<?php the_time('c'); ?>" pubdate=""><?php the_time('Y年n月j日'); ?></time>
-        <h2 class="huge-font"><?php title_limit(); ?></h2>
-      </a>
-    </div>
+    <ul>
+      <li class="archive-in">
+        <a class="link-block" href="<?php the_permalink(); ?>">
+          <time class="small-font" datetime="<?php the_time('c'); ?>" pubdate=""><?php the_time('Y年n月j日'); ?></time>
+          <h2 class="huge-font"><?php title_limit(); ?></h2>
+        </a>
+      </li>
+    </ul>
   </article>
 
 <?php
