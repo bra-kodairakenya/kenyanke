@@ -2,7 +2,7 @@
   <div id="header_in">
     <div id="header_fixed">
       <div id="header_logo">
-        <h1><a class="link-block title-font" href="<?php echo site_url(); ?>">コダイラ ケンヤ</a></h1>
+        <h1><a class="link-block title-font" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a></h1>
       </div>
 
       <nav>
