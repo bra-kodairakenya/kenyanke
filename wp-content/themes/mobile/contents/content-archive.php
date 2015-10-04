@@ -30,7 +30,3 @@
 
 </div><!-- archive -->
 
-<!-- AF広告 -->
-<a href="http://px.a8.net/svt/ejp?a8mat=2HUJPN+691VG2+3BPG+60WN5" target="_blank">
-<img border="0" width="234" height="60" alt="" src="http://www22.a8.net/svt/bgt?aid=150911051378&wid=001&eno=01&mid=s00000015514001012000&mc=1"></a>
-<img border="0" width="1" height="1" src="http://www12.a8.net/0.gif?a8mat=2HUJPN+691VG2+3BPG+60WN5" alt="">

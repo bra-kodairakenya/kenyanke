@@ -28,11 +28,6 @@ body {background-color:#FFFFFF; margin:0; padding:0; border:0; font:inherit; fon
 ::selection{background-color:#E1DABB;text-shadow:none}
 ::-moz-selection{background-color:#E1DABB;text-shadow:none}
 
-/* <a>タグのリンク */
-a{text-decoration:none;}
-a:hover {text-decoration: underline;}
-a:hover img{opacity:0.80; filter:alpha(opacity=80); /*IE用*/ border-radius: 5%; }
-
 nav,ol,ul{list-style-type : none}
 
 @media screen{[hidden~=screen]{display:inherit}

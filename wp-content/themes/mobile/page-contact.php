@@ -9,9 +9,10 @@
 
   <article>
     <div id="wrapper">
-      <?php get_new_posts_list_template(); ?>
-    </div>
+      <?php get_template_part('contents/content-contact'); ?>
+    </div><!-- wrapper -->
   </article>
+
 
 <?php get_footer(); ?>
 

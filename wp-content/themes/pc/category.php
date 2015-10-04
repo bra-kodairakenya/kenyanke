@@ -9,7 +9,7 @@
 
   <article>
     <div id="wrapper">
-      <?php get_new_posts_list_template(); ?>
+      <?php get_cat_posts_list_template(); ?>
     </div>
   </article>
 

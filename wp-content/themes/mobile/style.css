@@ -86,7 +86,7 @@ a:hover img{opacity:0.80; filter:alpha(opacity=80); /*IE用*/ }
   border-bottom: 1px solid #CCCCCC;
 }
 
-.nav-menu:nth-child(-n+2) {
+.nav-menu:nth-child(-n+3) {
   width: 100%;
   border-bottom: 1px dotted #CCCCCC;
 }
@@ -213,6 +213,5 @@ a:hover img{opacity:0.80; filter:alpha(opacity=80); /*IE用*/ }
 #error_404 {
   padding-bottom: 10px;
 }
-
 
 

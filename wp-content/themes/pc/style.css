@@ -180,6 +180,7 @@ body {
 }
 
 #single_content h2 {
+  color: #000000;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -187,6 +188,7 @@ body {
 }
 
 #single_content h3 {
+  color: #000000;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -214,6 +216,8 @@ body {
 
 #single_content img {
   display: block;
+  width: 100%;
+  height: auto;
   margin: 10px 0px;
 }
 
