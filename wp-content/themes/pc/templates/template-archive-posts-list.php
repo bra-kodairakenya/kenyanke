@@ -21,6 +21,8 @@ function posts_list_view($query, $page_titile) {
 <div id="archive">
   <h1 class="title-font"><?php echo $page_titile; ?></h1>
 
+<?php get_nav_cat_template(); ?>
+
 <?php
   if ($query->have_posts()):
   while ($query->have_posts()): $query->the_post();

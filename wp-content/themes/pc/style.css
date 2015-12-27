@@ -121,6 +121,23 @@ body {
 }
 
 
+/* posts_list_nav */
+#posts_list_nav {
+  width: 100%;
+  height: 40px;
+  padding-top: 20px;
+}
+
+#cat_nav_list {
+
+}
+
+.cat_nav_list_in {
+  float: left;
+  margin-right: 20px;
+}
+
+
 /* wrapper */
 #wrapper {
   position: relative;
@@ -202,12 +219,13 @@ body {
 }
 
 #single_content strong {
+  color: #000000;
   font-size: 16px;
   font-weight: 600;
 }
 
 #single_content a {
-  border-bottom: 1px solid #999999;
+  color: #167ac6;
 }
 
 #single_content a:hover {
@@ -235,6 +253,19 @@ body {
 }
 
 
+/* テンプレートパーツ */
+#post_nav {
+  clear: both;
+  margin-bottom: 40px;
+}
+
+#prev_post {
+  float: left;
+}
+
+#next_post {
+  float: right;
+}
 
 
 

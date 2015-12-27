@@ -22,6 +22,7 @@
             </div>
           </div><!-- single -->
         </main>
+        <?php prev_next_post_link(); ?>
       <?php endwhile; endif; ?>
 
     </div><!-- wrapper -->
